@@ -119,7 +119,6 @@ alias kdeps="kubectl get deployments"
 alias kall="kubectl get all"
 alias kn="kubectl get namespaces"
 
-
 # plugins = ( [plugins...] zsh-autosuggestions history-substring-search zsh-syntax-highlighting)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
 
@@ -137,3 +136,17 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 [[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/nav/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/nav/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/nav/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/nav/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOPATH
+# export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$GOBIN
