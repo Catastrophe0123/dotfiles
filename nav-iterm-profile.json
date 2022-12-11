@@ -1,6 +1,12 @@
 {
-  "Thin Strokes" : 4,
-  "Working Directory" : "\/Users\/sameer",
+  "Ansi 5 Color" : {
+    "Red Component" : 0.752197265625,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.74494361877441406,
+    "Alpha Component" : 1,
+    "Green Component" : 0.24931684136390686
+  },
+  "Working Directory" : "\/Users\/nav",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
     "Red Component" : 0,
@@ -83,7 +89,6 @@
     "Green Component" : 0.55789834260940552
   },
   "Shortcut" : "",
-  "Background Image Location" : "\/Users\/sameer\/Downloads\/e6b264899a0453ea9e1a5bbe39ddfc25.jpg",
   "Bold Color" : {
     "Red Component" : 0.99999600648880005,
     "Color Space" : "sRGB",
@@ -481,9 +486,9 @@
     "Alpha Component" : 1,
     "Green Component" : 0.23660069704055786
   },
-  "Name" : "sameer-config",
+  "Name" : "nav-iterm-profile",
   "Blinking Cursor" : false,
-  "Guid" : "C1220972-6710-4924-BD24-06FCE7DEF938",
+  "Guid" : "3D99EA40-94C4-40D3-8B83-838A47150938",
   "Idle Code" : 0,
   "Ansi 10 Color" : {
     "Red Component" : 0.3450070321559906,
@@ -565,6 +570,9 @@
     "Green Component" : 0.099111050367355347
   },
   "Screen" : -2,
+  "Bound Hosts" : [
+
+  ],
   "Non Ascii Font" : "Monaco 12",
   "Ansi 13 Color" : {
     "Red Component" : 0.8821563720703125,
@@ -577,13 +585,7 @@
   "Columns" : 140,
   "Unicode Normalization" : 3,
   "Visual Bell" : true,
-  "ASCII Ligatures" : true,
   "Custom Directory" : "No",
-  "Ansi 5 Color" : {
-    "Red Component" : 0.752197265625,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.74494361877441406,
-    "Alpha Component" : 1,
-    "Green Component" : 0.24931684136390686
-  }
+  "Thin Strokes" : 4,
+  "ASCII Ligatures" : true
 }
