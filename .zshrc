@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 alias k="kubectl"
 alias d="docker"
 alias lsl="ls -lash"
+alias dcu="docker compose up"
 alias dcub="docker compose up --build"
 alias dcd="docker compose down"
 alias dcdv="docker compose down -v"
@@ -118,6 +119,8 @@ alias kpo="kubectl get pods"
 alias kdeps="kubectl get deployments"
 alias kall="kubectl get all"
 alias kn="kubectl get namespaces"
+alias drun="docker run --rm -it $1"
+alias dpsa="docker ps -a"
 
 # plugins = ( [plugins...] zsh-autosuggestions history-substring-search zsh-syntax-highlighting)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
