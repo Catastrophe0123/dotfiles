@@ -121,6 +121,7 @@ alias kall="kubectl get all"
 alias kn="kubectl get namespaces"
 alias drun="docker run --rm -it $1"
 alias dpsa="docker ps -a"
+alias gh="github"
 
 # plugins = ( [plugins...] zsh-autosuggestions history-substring-search zsh-syntax-highlighting)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
@@ -153,3 +154,5 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH
 # export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOBIN
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
